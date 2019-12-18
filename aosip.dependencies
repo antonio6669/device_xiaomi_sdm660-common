@@ -10,5 +10,11 @@
   {
     "repository": "vendor_dirac",
     "target_path": "vendor/dirac"
+  },
+  {
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "ten-anx",
+    "remote": "github"
   }
 ]

@@ -28,6 +28,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Dirac
 $(call inherit-product, vendor/dirac/dirac.mk)
 
+# ANX Camera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
